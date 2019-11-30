@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+#root {
+  height: 100%;
+}
+
+main {
+  height: 100%;
+}
+
+.floating-2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  bottom:20px;
+  left: 50%;
+  font-size: 10px;
+  padding: 10px;
+  font-weight: bold;
+  transform: translateX(-50%);
+}
+
+.floating-1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  bottom:80px;
+  left: 50%;
+  height: 30px;
+  font-size: 10px;
+  padding: 10px;
+  font-weight: bold;
+  transform: translateX(-50%);
+}
+
+.absolute-center { 
+  height: 100%; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.w-300 { 
+  width: 300px;
+}
+
+.w-100p {
+  width: 100%;
+}
+
+.m20 {
+  margin: 20px;
+}
+
+.indv-color {
+  width: 20vw;
+  height: 75vh;
+}
+
+.color-shade {
+   width: 100%;
+   height: 0%;
+   transform: translate3d(0,0,0);
+   transition: height .5s cubic-bezier(0, 1.49, 0.25, 0.67);
+   cursor: pointer;
+  }
